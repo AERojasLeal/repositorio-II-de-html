@@ -1,0 +1,26 @@
+.fondo{
+    background-color: rgb(219, 219, 216);
+}
+
+header{
+    background-color: rgb(208, 215, 219);
+}
+footer{
+    background-color: rgb(208, 215, 219);
+}
+.miTexto{
+    font-size: 3em;
+    color: rgb(143, 142, 158);
+}
+.miBoton{
+  /*  border: 1px solid black;*/
+    width: fit-content;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    border-radius: 15%;
+}
+.miBoton:hover{
+    background-color: rgb(168, 201, 219);
+}
+.miBoton:active{
+    background-color: rgb(106, 178, 218);
+}
