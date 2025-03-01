@@ -13,7 +13,7 @@ footer{
     color: rgb(143, 142, 158);
 }
 .miBoton{
-  /*  border: 1px solid black;*/
+    /*border: 1px solid black;*/
     width: fit-content;
     padding: 0.3em 0.3em 0.3em 0.3em;
     border-radius: 15%;
@@ -23,4 +23,19 @@ footer{
 }
 .miBoton:active{
     background-color: rgb(106, 178, 218);
+}
+#contenedor{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#contenedor_imagenes{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    align-items: center;
 }
