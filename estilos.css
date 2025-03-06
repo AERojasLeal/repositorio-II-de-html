@@ -1,5 +1,5 @@
 .fondo{
-    background-color: rgb(219, 219, 216);
+    background : linear-gradient(rgb(208, 215, 219), white);
 }
 
 header{
@@ -9,18 +9,23 @@ footer{
     background-color: rgb(208, 215, 219);
 }
 .miTexto{
-    font-size: 3em;
+    font-family: Arial,  sans-serif;
+    font-size: 2em;
     color: rgb(143, 142, 158);
 }
 .miBoton{
     /*border: 1px solid black;*/
     width: fit-content;
-    padding: 0.3em 0.3em 0.3em 0.3em;
+    padding: 3px;
     border-radius: 15%;
+    
 }
 .miBoton:hover{
     background-color: rgb(168, 201, 219);
+    color: white;
+    text-decoration: none;
 }
+
 .miBoton:active{
     background-color: rgb(106, 178, 218);
 }
